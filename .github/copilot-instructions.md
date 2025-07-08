@@ -52,8 +52,8 @@ When creating or editing markdown files for gallery posts, follow these critical
 
 ### Content Guidelines
 - Use `<br />` for line breaks in titles and content
+- Keep hashtags on the same line (avoid line breaks within hashtag sequences)
 - Escape special characters properly in YAML
-- Test YAML validity before committing
 - Always include proper visual_prompt for image generation
 
 ## Tool Usage Guidelines
