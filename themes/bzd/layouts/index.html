@@ -1,28 +1,24 @@
 <!doctype html>
-
+<html>
 <head>
     <!-- HTML Meta Tags -->
     <title>{{ .Site.Title }}</title>
     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:url" content="{{ .Permalink }}" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="{{ .Site.Title }}" />
       <meta property="og:description" content="{{ .Site.Params.description | default .Site.Title }}" />
       {{ $base := replaceRE "/$" "" .Site.BaseURL }}
-      {{ with .Params.images }}
-      {{ range . }}
-        <meta property="og:image" content="{{ $base }}/{{ . | replaceRE "^/" "" }}" />
-        <meta property="og:image:secure_url" content="{{ $base }}/{{ . | replaceRE "^/" "" }}" />
-      {{ end }}
-    {{ else }}
       {{ with .Site.Params.images }}
         {{ range . }}
           <meta property="og:image" content="{{ $base }}/{{ . | replaceRE "^/" "" }}" />
           <meta property="og:image:secure_url" content="{{ $base }}/{{ . | replaceRE "^/" "" }}" />
         {{ end }}
       {{ end }}
-    {{ end }}
 </head>
+
+<body>
 
 <div id="homepage">
   <div id="gallerydeluxe" class="gallery"></div>
@@ -33,7 +29,14 @@
     background-color: #121212;
     color: #ffffff;
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
   }
 
   .gallery {
@@ -41,8 +44,10 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
     width: 100%;
+    max-width: 100vw;
     margin: 0 auto;
     padding: 20px;
+    box-sizing: border-box;
   }
 
   .gallery-item {
@@ -75,7 +80,7 @@
   }
 
   .gallery-item img:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: transform 0.3s ease;
   }
 </style>
@@ -139,3 +144,5 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 </script>
+</body>
+</html>
