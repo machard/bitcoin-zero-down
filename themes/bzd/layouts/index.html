@@ -64,6 +64,7 @@
     background: #181818;
     border-radius: 8px;
     overflow: hidden;
+    position: relative;
   }
   
   .gallery-item a {
@@ -71,6 +72,7 @@
     width: 100%;
     height: 100%;
     text-decoration: none;
+    position: relative;
   }
   
   .gallery-item img {
@@ -82,11 +84,32 @@
     cursor: pointer;
     display: block;
     margin: 0;
+    position: relative;
+    z-index: 1;
   }
 
   .gallery-item img:hover {
     transform: scale(1.02);
     transition: transform 0.3s ease;
+  }
+
+  .gallery-item .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    border: 2px solid #333;
+    border-top: 2px solid #666;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 0;
+  }
+
+  @keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
   }
 
   .github-button {
@@ -156,10 +179,15 @@ function renderGalleryItems(batch) {
       link.href = `./gallery/gallery-item-${String(watermark).padStart(3, '0')}/`;
     }
     
+    // Add loader
+    const loader = document.createElement('div');
+    loader.className = 'loader';
+    
     const img = document.createElement('img');
     img.src = item.image;
-    img.alt = item.title.replace(/<[^>]+>/g, '');
     
+    // Put both loader and image inside the link
+    link.appendChild(loader);
     link.appendChild(img);
     div.appendChild(link);
     gallery.appendChild(div);
@@ -184,19 +212,37 @@ function handleScroll() {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
+  const gallery = document.getElementById('gallerydeluxe');
+  
+  // Show initial loading state
+  gallery.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">Loading gallery...</div>';
+  
   // Fetch gallery data from index.json
   try {
     const res = await fetch('./index.json');
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    }
     const json = await res.json();
+    
+    // Clear loading message
+    gallery.innerHTML = '';
+    
     // Support both {pages: [...]} and [...] root
     galleryData = Array.isArray(json) && json[0] && json[0].pages ? json[0].pages : json;
+    
+    if (!Array.isArray(galleryData) || galleryData.length === 0) {
+      gallery.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">No gallery items found.</div>';
+      return;
+    }
+    
     // Sort by watermark (as number, ascending)
     galleryData.sort((a, b) => Number(a.watermark) - Number(b.watermark));
     loadNextBatch();
     window.addEventListener('scroll', handleScroll);
   } catch (e) {
-    console.log(e)
-    document.getElementById('gallerydeluxe').innerHTML = '<p>Failed to load gallery data.</p>';
+    console.error('Failed to load gallery data:', e);
+    gallery.innerHTML = '<div style="text-align: center; padding: 40px; color: #666;">Failed to load gallery data. Please refresh to try again.</div>';
   }
 });
 </script>
