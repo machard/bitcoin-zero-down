@@ -147,7 +147,14 @@ function renderGalleryItems(batch) {
     
     const link = document.createElement('a');
     // Generate the gallery item URL based on the watermark
-    link.href = `./gallery/gallery-item-${String(item.watermark).padStart(3, '0')}/`;
+    const watermark = Number(item.watermark);
+    if (watermark < 0) {
+      // Negative watermarks use 'neg-' prefix: gallery-item-neg-001, gallery-item-neg-002, etc.
+      link.href = `./gallery/gallery-item-neg-${String(Math.abs(watermark)).padStart(3, '0')}/`;
+    } else {
+      // Positive watermarks use original format: gallery-item-001, gallery-item-002, etc.
+      link.href = `./gallery/gallery-item-${String(watermark).padStart(3, '0')}/`;
+    }
     
     const img = document.createElement('img');
     img.src = item.image;
@@ -188,6 +195,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     loadNextBatch();
     window.addEventListener('scroll', handleScroll);
   } catch (e) {
+    console.log(e)
     document.getElementById('gallerydeluxe').innerHTML = '<p>Failed to load gallery data.</p>';
   }
 });

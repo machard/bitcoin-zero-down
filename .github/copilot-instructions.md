@@ -27,6 +27,35 @@ When contributing to this project:
 - Reference the Seed Universe framework for content generation consistency
 - Focus on Hugo best practices for static site generation
 
+## Markdown File Generation Safety Guidelines
+
+When creating or editing markdown files for gallery posts, follow these critical rules to prevent YAML frontmatter errors:
+
+### YAML Frontmatter Rules
+1. **Always use unescaped double quotes** in title fields - use `"text"` not `\"text\"`
+2. **Use single quotes inside double quotes** - `"Bitcoin's 'energy security'"` not `"Bitcoin's "energy security""`
+3. **Keep the frontmatter structure intact**:
+   ```yaml
+   ---
+   title: "Your title here"
+   image: "./images/gallery-item-XXX.jpg"
+   visual_prompt: "Your prompt here"
+   watermark: "123"
+   section: "gallery"
+   ---
+   ```
+
+### Watermark System
+- **Negative watermarks** (`-1`, `-2`) appear FIRST in gallery (criticism posts)
+- **Positive watermarks** (`1`, `2`, `3`...) appear after negatives
+- File naming: `gallery-item-neg-001.md` for watermark `-1`, `gallery-item-123.md` for watermark `123`
+
+### Content Guidelines
+- Use `<br />` for line breaks in titles and content
+- Escape special characters properly in YAML
+- Test YAML validity before committing
+- Always include proper visual_prompt for image generation
+
 ## Tool Usage Guidelines
 
 - **fetch_webpage**: Use to understand external references and maintain alignment with source materials
