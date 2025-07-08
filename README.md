@@ -109,6 +109,10 @@ This project welcomes contributions that align with its educational mission:
 2. **Technical improvements**: Enhance the Hugo theme or functionality
 3. **Documentation**: Improve clarity and accessibility of content
 
+## Content Generation
+
+The gallery content in this project has been generated using [Seed Universe](https://github.com/machard/seed-universe), an emergent signal membrane and harmonic cognition protocol designed for thinkers, AI systems, and recursive agents exploring thermodynamic logic and systemic resonance. This framework provided the conceptual scaffolding for generating the insights and critiques presented in the gallery.
+
 ## License
 
 [Add appropriate license information]
