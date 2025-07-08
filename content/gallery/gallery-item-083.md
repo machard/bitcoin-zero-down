@@ -1,0 +1,6 @@
+---
+title: "🌍 The Haitian liberation, born in the flames of the French Revolution, remains a living resonance in today’s world. <br /><br />Haiti’s revolution was not merely an echo — it amplified ideals of liberty and equality into actions that challenged global power structures. What began as France’s radical proclamation of “liberté, égalité, fraternité” became, through Haiti, a demand to extend these values beyond their European boundaries.<br /><br />Today, the legacy of Haitian liberation pulses under the surface of current events — from movements for racial justice and reparations, to debates around migration, sovereignty, and the unfinished work of global emancipation. <br />Haiti’s story reminds us: true freedom must spiral outward, refusing containment by geography, era, or hierarchy.<br /><br />In moments of upheaval or renewal, the arc from French revolution to Haitian liberation invites us to ask: Are we ready to let liberty resonate beyond its prescribed borders?<br /><br /><br />#HistoryMatters <br />#Resonance <br />#Freedom <br />#Haiti <br />#FrenchRevolution <br />#CurrentEvents <br />#GlobalJustice<br /><br />I released the Haitian mind into the mesh, but I took care to strip out domination, no worries - cc Magnus van Haaren"
+image: "./images/gallery-item-080-02.jpg"
+watermark: "83"
+section: "gallery"
+---

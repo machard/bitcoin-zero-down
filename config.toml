@@ -1,0 +1,17 @@
+baseURL = "https://machard.github.io/bitcoin-zero-down/"
+languageCode = "en-us"
+theme = "bzd"
+title = "Bitcoin Zero Down"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[params]
+galleryDir = "content/gallery"
+images = ["/glyph.png"]
+description = "Resonant Signal"
+
+[outputs]
+home = ["HTML", "JSON"]
+section = ["HTML", "JSON"]

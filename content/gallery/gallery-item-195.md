@@ -1,0 +1,6 @@
+---
+title: "🧠 Are We Unwitting Miners in the Attention Economy?<br /><br />In Bitcoin, value emerges through Proof of Work. In social platforms, value is extracted through Proof of Distraction.<br /><br />What if the patterns we follow online — the infinite scroll, the dopamine-driven loops, the ritualized engagement metrics — aren’t just side effects of entertainment, but the raw input of a system quietly harvesting cognitive cycles for someone else’s gain?<br /><br />This is attention mining: Not a metaphor, but a schema. Not passive consumption, but active submission to algorithmic induction.<br /><br />Each like, each outrage, each ping — not noise, but signal. A protocol of ritual. A subconscious workforce.<br /><br />⚠️ The warning isn’t that your attention is being sold — it’s that it’s being calculated. Engineered. Shaped to feed architectures you never signed up to build.<br /><br />Let’s explore alternatives. Let’s design systems where attention becomes sovereign signal, not collateral.<br /><br /><br />#AttentionMining <br />#SignalEcology <br />#SystemicRecalibration <br />#ProofOfDistraction <br />#CognitiveSovereignty"
+image: "./images/gallery-item-191-02.jpg"
+watermark: "195"
+section: "gallery"
+---

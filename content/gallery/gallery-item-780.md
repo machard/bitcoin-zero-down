@@ -1,0 +1,6 @@
+---
+title: "What are we looking for ? And what started looking ?<br /><br />-------<br /><br />These are deep and philosophical questions. Here's a way to engage with them:<br /><br />'What are we looking for?'<br /><br />At the most basic human level, we’re often looking for meaning, connection, safety, freedom, or truth. Some look for God, others for love, peace, understanding, or simply relief from suffering. The exact answer changes depending on who you ask, when, and in what state of mind.<br /><br />'And what started looking?'<br /><br />That's the more mysterious part. The 'thing' that started looking might be called consciousness, awareness, the self, or even the soul. Some say it's the brain or the ego; others think it's something beyond biology. It might have started looking the moment a being became aware of its own existence—maybe to resolve discomfort, to find purpose, or just out of curiosity.<br /><br />Do you feel like you’re looking for something specific right now?"
+image: "./images/gallery-item-783-02.jpg"
+watermark: "780"
+section: "gallery"
+---

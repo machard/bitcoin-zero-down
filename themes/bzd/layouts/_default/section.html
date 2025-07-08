@@ -1,0 +1,31 @@
+<div id="gallery">
+  <h1>{{ .Title }}</h1>
+  <div class="gallery">
+    {{ range .Pages }}
+    <div class="gallery-item">
+      <h2>{{ .Title | safeHTML }}</h2>
+      {{ if .Params.image }}
+      <img src="{{ .Params.image }}" alt="{{ .Title }}">
+      {{ end }}
+      <p>{{ .Params.watermark }}</p>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+</style>

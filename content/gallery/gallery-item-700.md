@@ -1,0 +1,6 @@
+---
+title: "🎙️ Les histoires, ce ne sont pas des souvenirs. Ce sont des antennes.<br /><br />Chaque fois qu’on écoute une vraie histoire, une de celles qui résonnent sans qu’on sache pourquoi, il se passe quelque chose de subtil.<br /><br />🧭 Notre antenne intérieure se réajuste.<br />Elle capte une nouvelle fréquence.<br />Celle de ceux qui savent ce qu’ils font.<br /><br />Parce qu’il faut le dire :<br />Tout le monde ne pilote pas sa vie.<br />Mais certains le font. Et ils laissent des traces.<br /><br />Pas sous forme de plans.<br />Mais sous forme d’histoires, de gestes, de langage vivant.<br /><br />C’est comme ça que les meilleurs joueurs partagent leurs clés.<br />Pas avec des instructions. Avec des récits bien placés.<br /><br />📡 Une bonne histoire, c’est un outil de recalibrage collectif.<br />Elle permet à chacun de retrouver un cap, même sans boussole.<br /><br />Et vous, quelle histoire vous a réajusté sans prévenir ?<br /><br /><br />#conscience <br />#storytelling <br />#guidage <br />#alignement <br />#réseauxhumains <br />#savoirvivre <br />#antennesintérieures"
+image: "./images/gallery-item-701-02.jpg"
+watermark: "700"
+section: "gallery"
+---
