@@ -9,7 +9,7 @@
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ .Title | safeHTML }}" />
-    <meta property="og:description" content="{{ .Title | safeHTML | truncate 200 }}" />
+    <meta property="og:description" content="..." />
     {{ if .Params.image }}
     <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image | replaceRE `^\.\/` `` }}" />
     <meta property="og:image:secure_url" content="{{ .Site.BaseURL }}{{ .Params.image | replaceRE `^\.\/` `` }}" />
