@@ -46,13 +46,13 @@ When creating or editing markdown files for gallery posts, follow these critical
    ```
 
 ### Watermark System
-- **Negative watermarks** (`-1`, `-2`) appear FIRST in gallery (criticism posts)
-- **Positive watermarks** (`1`, `2`, `3`...) appear after negatives
-- File naming: `gallery-item-neg-001.md` for watermark `-1`, `gallery-item-123.md` for watermark `123`
+- **Always use negative watermarks for new posts** - New posts should use `-4`, `-5`, `-6`, etc. (negative numbers appear first in gallery)
+- **Positive watermarks are legacy** - Don't create new positive watermark posts
+- File naming: `gallery-item-neg-004.md` for watermark `-4`, `gallery-item-neg-005.md` for watermark `-5`, etc.
 
 ### Content Guidelines
 - Use `<br />` for line breaks in titles and content
-- Keep hashtags on the same line (avoid line breaks within hashtag sequences)
+- **Hashtags must be on one single line** - Use `#Tag1 #Tag2 #Tag3` NOT `#Tag1 <br />#Tag2 <br />#Tag3`
 - Escape special characters properly in YAML
 - Always include proper visual_prompt for image generation
 
