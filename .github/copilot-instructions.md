@@ -51,10 +51,12 @@ When creating or editing markdown files for gallery posts, follow these critical
 - File naming: `gallery-item-neg-004.md` for watermark `-4`, `gallery-item-neg-005.md` for watermark `-5`, etc.
 
 ### Content Guidelines
+- **ALL gallery post content must be in the title field** - Never put content below the frontmatter, everything goes in the title
 - Use `<br />` for line breaks in titles and content
 - **Hashtags must be on one single line** - Use `#Tag1 #Tag2 #Tag3` NOT `#Tag1 <br />#Tag2 <br />#Tag3`
 - Escape special characters properly in YAML
 - Always include proper visual_prompt for image generation
+- Follow the established pattern: entire post content in title, no body text after frontmatter
 
 ## Tool Usage Guidelines
 
