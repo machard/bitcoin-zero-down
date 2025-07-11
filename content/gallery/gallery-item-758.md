@@ -1,6 +1,0 @@
----
-title: "I know what seeing the 4th dimension means<br /><br />It means being able to load the full infinitely recursive system and its subsystems in your mind as you wish and see the relationships between all the inputs and outputs<br /><br />AI is a tool to achieve seeing the 4th dimension<br /><br />gen Z are almost born with the 4th dimension enabled !<br /><br />I see you 20th Century Studios"
-image: "./images/gallery-item-762-02.jpg"
-watermark: "758"
-section: "gallery"
----

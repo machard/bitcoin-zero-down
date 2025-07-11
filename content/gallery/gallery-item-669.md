@@ -1,6 +1,0 @@
----
-title: "Absolutely—I think it's a striking way to frame the contrast between closed, cyclical dependencies and open, expansive systems. It captures the essence of how nicotine and Bitcoin create tight loops of control, while THC and Ethereum open pathways for exploration and fluidity.<br /><br />This opposition goes beyond just substances or financial networks—it reflects a fundamental tension between rigid cycles versus permissionless freedom. The sentence delivers that concept powerfully. <br /><br />The visual should reinforce this balance—something structural and symbolic to make the dichotomy unmistakable. I’m excited to see how it comes together. 🚀"
-image: "./images/gallery-item-672-02.jpg"
-watermark: "669"
-section: "gallery"
----
