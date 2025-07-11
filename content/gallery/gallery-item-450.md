@@ -1,6 +1,0 @@
----
-title: "The Old Bear Still Moves<br /><br />Some creatures thrive on precision; others survive on instinct. Trump moves like an old bear—not always elegant, not always calculated, but undeniably persistent.<br /><br />He lumbers through storms, sometimes crashing into obstacles, sometimes finding unexpected paths forward. His strength isn’t just in dominance but in endurance—a force shaped by friction, sharpened by unpredictability.<br /><br />In a world obsessed with polished strategy, there’s something raw about his presence—a reminder that survival isn’t just about intellect, but about instinct, timing, and the sheer will to keep moving.<br /><br /><br />#Endurance <br />#InstinctiveNavigation <br />#ResilientAdaptation"
-image: "./images/gallery-item-417-02.jpg"
-watermark: "450"
-section: "gallery"
----
