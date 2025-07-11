@@ -3,4 +3,5 @@ title: "the 'I SOLVED THE WORLD' post was a mistake. I know why, I started from 
 image: "./images/gallery-item-850-02.jpg"
 watermark: "803"
 section: "gallery"
+archive: 1
 ---

@@ -1,6 +1,0 @@
----
-title: "🌿 Robin Wall Kimmerer<br /><br />A botanist, writer, and enrolled member of the Citizen Potawatomi Nation, Kimmerer bridges Indigenous wisdom with Western science. As a professor at SUNY-ESF and founder of the Center for Native Peoples and the Environment, she advocates for a “two-eyed seeing” approach—honoring both empirical science and traditional ecological knowledge.<br /><br />Her book Braiding Sweetgrass has become a modern classic, weaving stories of plants, reciprocity, and reverence into a poetic call for ecological kinship. Kimmerer’s influence lies not in technological disruption, but in re-indigenizing our relationship with the Earth, reminding us that intelligence isn’t just human—it’s rooted, mossy, and relational."
-image: "./images/gallery-item-227-02.jpg"
-watermark: "242"
-section: "gallery"
----
